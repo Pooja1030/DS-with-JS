@@ -1,0 +1,120 @@
+Question -- sum of 2 integers
+    --relation between integer and string
+    -- type coercion
+Question -- sum and message
+Question -- accept and print the ans
+Question -- swap 2 variales via 3 methods
+
+-- Operations and their questions
+-- Arithmetic - '+' , '-', '*', '/'
+-- Relational - '>' ,'<', '>=', '<=', '%'
+-- Logical - '&&' ,'||', '!'
+-- Unary - '++' ,'--'
+
+
+Questions on operators
+
+Math functions
+
+-- Math.round()
+-- Math.ceil()
+-- Math.floor()
+-- Math.trunc()   // remoes the decimal
+-- Math.pow()
+-- Math.sqrt()
+-- Math.cqrt()
+-- Math.abs()
+-- Math.max()
+-- Math.min()
+-- Math.random()
+-- to.fixed()
+
+-> Math problems:
+
+Q. calculate area and permiter of rectangle
+Q. Generate OTP 
+Q. Area of triangle by heron's formula
+Q. Circumference of circle
+
+
+
+Conditional Statement
+Q8. valid user
+Q9. Shop discount
+Q11. Electricity Bill 
+Q12. INR denomination
+
+-- Ternary opeator, switch and One case handling multiple values
+-- Nested Ternary operator
+
+switch and One case handling multiple values
+-- switch case can't handle float value because its precision issues
+
+
+Loop
+-- Loop
+-- For Loop
+Q. print n hello world
+Q. One to n number and ice ersa
+Q. Sum of n natural numbers and factorial of number
+Q. Factors of number 
+Q. Prime number
+-- while Loop
+Q. sum of digit
+Q. reverse of number
+Q. strong number
+-- do while 
+Q. Repeat hello
+Q. sasta calculate
+Q. Guess the number
+
+
+Pattern Programming
+-- Nested Loop
+-- Pattern Questions
+
+
+Arrays
+-- Array
+-- Introduction
+-- accept value from user and assign in the Array
+Q. sum of array's element
+Q. max element from array
+Q. second max element from array
+Q. reverse the array
+Q. all zeros to left and all ones to right
+
+
+String  
+-- Introduction of string
+-- methods of string
+Q. print each character on new line
+Q. print in reverse order
+Q. check if string is palindrome or not
+Q. Toggle each character
+Q. Frequency of each character
+
+
+-- class and object
+-- contructor
+-- prototype object
+-- this key word 
+-- design problems
+
+
+
+Real Games start from here
+
+Advance Array problems
+Q. Left and right rotation by k element
+Q. Removes duplicated from the sorted array
+Q. Merge sorted array
+Q. best time to buy and sell stocks
+Q. Sort the color
+Q. Max subarr / Kadane's algorithm
+Q. Majority Element / Moore's voting algorithm
+Q. Trapping Rain water
+
+
+Sorting Algo -- Part 1
+bubble, selection, insertion
