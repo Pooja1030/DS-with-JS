@@ -118,3 +118,32 @@ Q. Trapping Rain water
 
 Sorting Algo -- Part 1
 bubble, selection, insertion
+
+Sorting Algo -- Part 2
+Quick , Merge
+
+
+Cyclic Sort 
+Q. Missing no
+Q. Find all the disappeared array
+Q. First pos no
+
+
+binary Search
+Q. binary search
+Q. search insert pos
+Q. search in rotated sorted array
+Q. book allocation
+Q. Koko eating
+Q. Threshold limit
+
+
+Hashing
+Q. Print the Frequency of each no
+Q. Print the unique element
+Q. Check if sentence is Panagram
+Q. Sort the people
+Q. Two sum
+Q. subarr sum equal to k
+Q. Longest subarr with sum k
+Q. Longest consecutie sequence
