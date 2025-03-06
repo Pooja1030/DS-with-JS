@@ -1,4 +1,4 @@
-// Q.8
+// Q.8  ---- valid user
 
 let ans = Number(prompt("What is your age ?"));
 
@@ -15,7 +15,7 @@ else if(ans >= 18){
 }
 
 
-// Q.9
+// Q.9  ---- Shop discount
 
 // Range Question
 // brute approach
@@ -54,7 +54,7 @@ else if(amt > 9000){
     console.log(amt - Math.floor((dis*amt)/100));
 
 
-// Q.10
+// Q.10 -- Electricity Bill 
 // bijli 
 // bottom to top approach
 
@@ -76,7 +76,7 @@ ammount += unit * 4;
 console.log(ammount);
 
 
-// Q.11
+// Q.11 ---- INR denomination
 
 // 4888  - 500 - 9
 // 388  - 200 - 1

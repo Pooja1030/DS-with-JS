@@ -32,7 +32,7 @@ else{
         console.log(fact);    
     }
     else{
-        console.log("Should e +e and more than -");   
+        console.log("Should be +e and more than -");   
     }
 }
 }
@@ -52,7 +52,7 @@ else{
         console.log(sum);    
     }
     else{
-        console.log("Should e +e and more than -");   
+        console.log("Should be +e and more than -");   
     }
 }
 
@@ -73,7 +73,7 @@ else{
         console.log(nuum2);    
     }
     else{
-        console.log("Should e +e and more than -");   
+        console.log("Should be +e and more than -");   
     }
 }
 
@@ -99,7 +99,7 @@ else{
         }   
     }
     else{
-        console.log("Should e +e and more than -");   
+        console.log("Should be +e and more than -");   
     }
 }
 
@@ -152,7 +152,7 @@ else{
        
     }
     else{
-        console.log("Should e +e and more than -");   
+        console.log("Should be +e and more than -");   
     }
 }
 
@@ -175,7 +175,7 @@ else{
        
     }
     else{
-        console.log("Should e +e and more than -");   
+        console.log("Should be +e and more than -");   
     }
 }
 
@@ -209,7 +209,7 @@ else{
        
     }
     else{
-        console.log("Should e +e and more than -");   
+        console.log("Should be +e and more than -");   
     }
 }
 
@@ -239,7 +239,7 @@ let guess = 0;
 while(guess !== random){
     guess = Number(prompt("Guest the no"))
     if(isNaN(guess) || guess<1 || guess>100){
-        console.log("Try again etween 1-100");
+        console.log("Try again between 1-100");
         continue;
     }
     if(guess>random){
