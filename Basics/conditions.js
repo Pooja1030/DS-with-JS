@@ -137,7 +137,7 @@ console.log(num > 0 ? "positie" : num < 0 ? "Negatie" : "zero");
 
 // switch case
 // fall through condition -- where break is not used and it displays all the outputs
-// when to use -- constant alues are needed to compare , exact alues are needed to get matched
+// when to use -- constant values are needed to compare , exact alues are needed to get matched
 // There are some things that if else can do which switch can't do but all the switch things they do if else can do
 
 let day = 2;
