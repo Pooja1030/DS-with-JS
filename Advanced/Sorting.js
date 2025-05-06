@@ -85,3 +85,48 @@ console.log(arr);
 
 
 // Quick sort
+// Pivot and Partition
+
+function findPivotIdx(arr, first, last){           // O(n)
+    let pivot = arr[first]
+    let i = first + 1, j = last
+    while(i<=j){
+        while(i <= last && arr[i] <= pivot) i++;
+        while(j >= first && arr[j] > pivot) j--;
+
+        if(i < j){
+            swap(arr, i, j)
+        }
+    }
+    swap(arr, j, first)
+    return j;
+}
+
+function quickSort(arr, first, last){       // O(log(n))
+    if(first >= last) return
+    let pIdx = findPivotIdx(arr, first, last)
+    quickSort(arr, first, pIdx - 1)
+    quickSort(arr, pIdx + 1, last)
+}
+
+function swap(arr, i, j){
+    let temp = arr[i]
+    arr[i] = arr[j]
+    arr[j] = temp
+}
+
+// let arr = [19, 3, 17, 24, 1, 87, 22]
+quickSort(arr, 0, arr.length-1)
+
+console.log(arr);
+
+
+// T.C - O(log(n))  - avg and best case
+// T.C - O(n^2) - worst case
+// S.c - O(1)
+// When the arr is by default sorted we get w.c time complexity
+
+
+// Use Case
+// If space is limited and time can be spared - use quicksort
+// If time is limited and space can be spared - use mergesort
