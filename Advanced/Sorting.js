@@ -130,3 +130,27 @@ console.log(arr);
 // Use Case
 // If space is limited and time can be spared - use quicksort
 // If time is limited and space can be spared - use mergesort
+
+
+
+// Cyclic Sort
+// Missing Num 
+
+var missingNum = function(nums){
+    let i = 0;
+    while(i < nums.length){
+        let correctIdx = nums[i];
+        if(nums[i] < nums.length && nums[i] != nums[correctIdx]){
+            let temp = nums[i];
+            nums[i] = nums[correctIdx]
+            nums[correctIdx] = temp
+        }
+        else i++
+    }
+
+    for(let j = 0; j < nums.length; j++){
+        if(j != nums[j]) return j;
+    }
+    return nums.length;
+}
+
