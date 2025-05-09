@@ -134,6 +134,36 @@ console.log(arr);
 
 
 // Cyclic Sort
+// range is from 0 to n and 0 to n-1
+// correctIdx = arr[i] - 1                 find correct idx of no and check if
+// if(arr[i] == arr[correctIdx])            if the no at idx match then it is on correct idx and we do i++ otherwise swap
+
+
+// let arr = [6, 5, 8, 2, 1, 4, 3, 6]
+let i = 0;
+while(i < arr.length){
+    let correctIdx = arr[i] - 1
+    if(arr[i] != arr[correctIdx]){
+        let temp = arr[i]
+        arr[i] = arr[correctIdx]
+        arr[correctIdx] = temp
+    }
+    else i++;
+}
+
+console.log(arr);
+
+
+//  a case such as 0 to n-1 elem 
+// [6,3,1,5,4,2,0]
+// after sorting the idx of each will be the no itself so the change in the code will be 
+// let correctIdx = arr[i];
+
+// T.C -- O(n)
+// S.C -- O(1)
+
+
+// Questions
 // Missing Num 
 
 var missingNum = function(nums){
