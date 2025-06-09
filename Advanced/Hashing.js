@@ -1,0 +1,1 @@
+// Hashing --- It is a process or technique of converting a value into unique sign code(hash code) for storing and accessing data quickly.
