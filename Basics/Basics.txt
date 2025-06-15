@@ -146,4 +146,6 @@ Q. Sort the people
 Q. Two sum
 Q. subarr sum equal to k
 Q. Longest subarr with sum k
-Q. Longest consecutie sequence
+Q. Longest consecutive sequence
+
+
