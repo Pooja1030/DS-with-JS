@@ -41,8 +41,35 @@ console.log(set);
 
 
 // Check if sentence is pangram
+var CheckIfPangram = function(sentence){
+    let set = new Set();
+    for(let i = 0; i < sentence.length; i++){
+        let ch = sentence.charAt(i);
+        set.add(ch);
+    }
+    return set.size == 26;
+}
+
 
 // Print the frequency of each no
+let arr = [10, 3, 5, 6, 10, 1, 3, 5, 5, 7];
+let map = new Map();
+
+for(let i = 0; i < arr.length; i++){
+    // if(map.has(arr[i])){
+    //     map.set(arr[i], map.get(arr[i]) + 1)
+    // } else {
+    //     map.set(arr[i], 1);
+    // }
+    
+    // or
+
+    map.set(arr[i], (map.get(arr[i]) || 0) +1)
+}
+
+console.log(map);
+
+
 
 // sort the people
 
