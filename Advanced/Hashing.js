@@ -169,8 +169,42 @@ var intersection = function(nums1, nums2){
 // S.C - O(n)
 
 
+// Intersection of 2 arrays II
+// use map
+
+
+
+
+// VVVV IMP - Asked many times
 // subarr sum equal to K
+// step 1 - curr elem ko sum mein add kardo 
+// step 2 - sum - k ko check karo ki as a key tumhare map mein exist karta hai ya nahi
+//  -- agar karta hai --- uski value ko cnt mein add kardo , and jaha sum aaya tha aur abhi tak ke curr elem ka joh bhi sum hai woh k ke barabar hai
+//  -- agar nhi karta ---  dont do anything
+// step 3 - kya curr sum map mein exist karta hai ya nhi 
+//  --- agar karta hai - toh freq badha ke rakh do 
+//  --- agar nhi karta toh -- freq 1 karke rakhdo
+
+class Solution {
+    countSubarrays(arr, k){
+        let map = new Map();
+        let sum = 0, cnt = 1;
+        map.set(sum, 0);
+        for(let i = 0; i < arr.length; i++){
+            sum += arr[i];
+            if(map.has(sum - k)) cnt += map.get(sum - k);
+
+            map.set(sum, (map.get(sum) || 0 ) + 1);
+        }
+        return cnt;
+    }
+}
+// T.C - O(n)
+// S.C - O(n)
+
 
 // longest subarr with sum K
+// 
+
 
 // longest consecutive sequence
