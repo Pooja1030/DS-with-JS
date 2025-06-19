@@ -204,7 +204,43 @@ class Solution {
 
 
 // longest subarr with sum K
-// 
+// similar to previous question with slight diff
+// we need sum, longest, map
+// key = sum , value = indices   -- indices cause if i get 2 indices then i can find the length between them
+// step 1 - curr elem ko sum mein add kardo 
+// step 2 - sum - k ko check karo ki as a key tumhare map mein exist karta hai ya nahi
+//  -- agar karta hai --- uski value ko cnt mein add kardo , and jaha sum aaya tha aur abhi tak ke curr elem ka joh bhi sum hai woh k ke barabar hai
+//  -- agar nhi karta ---  dont do anything
+// step 3 - kya curr sum map mein exist karta hai ya nhi 
+//  --- agar karta hai - toh freq badha ke rakh do 
+//  --- agar nhi karta toh -- freq 1 karke rakhdo
+// sum exists nhi karta map mein toh hi entry banau nhi toh nhi
+
+
 
 
 // longest consecutive sequence
+// return len of longest consecutive seq
+// brute force -- arr ko sort , we will get consecutive no side by side
+// we tak longest, cnt = 1 and iterate
+// if arr[i] elem is equal to arr[i - 1] then continue
+// if curr elem(arr[i]) is equal to (arr[i-1] + 1) then cnt++
+// then compare longest and count value and keep bigger one in longest and then set your cnt to 1
+// longest = max(longest, cnt)  count = 1
+// T.C - nlogn
+
+// better force -- 2 ways -- map and set -- here set is more efficient
+// find how we can solve using map
+// step 1 - keep all elements in the set
+// make longest, cnt = 1
+// step 2 - we need to find the first element of the sequence
+// set.has(arr[i] - 1) -- curr elem - 1
+// find if it exists in the set that means prev elem is not the first elem in seq
+// while(set.has(val + cnt)) cnt++
+// if it does not exist then assign max value from cnt and longest in longest and set count to 1
+// traversal on set
+
+// VVVVVV imp
+var longestConsecutive = function(nums){
+    
+}
